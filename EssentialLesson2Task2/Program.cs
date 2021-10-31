@@ -1,11 +1,9 @@
 ﻿using System;
 
-
 namespace EssentialLesson2Task2
 {
     class Program
     {
-
         static double amount = 10;
         static double usdRate = 0.038;
         static double eurRate = 0.033;
@@ -23,10 +21,6 @@ namespace EssentialLesson2Task2
             Console.WriteLine(String.Format($"{amount} UAH by rate {usdRate} is " + "{0:0.00}", conv.UahToUsd(amount))+ " USD");
             Console.WriteLine(String.Format($"{amount} UAH by rate {eurRate} is " + "{0:0.00}", conv.UahToEur(amount))+ " EUR");
             Console.WriteLine(String.Format($"{amount} UAH by rate {rubRate} is " + "{0:0.00}", conv.UahToRub(amount))+ " RUB");
-
-
-
-
         }
     }
 }

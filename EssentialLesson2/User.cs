@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EssentialLesson2Task1
 {
@@ -35,11 +31,14 @@ namespace EssentialLesson2Task1
             Age = age;
             Date = DateTime.Now;
         }
-
+        //добавил ещё один вариант как можно вывести на экран информацию
+        //public override string ToString()
+        //{
+        //    return "Lohin: " + Login + "\nName is: " + Name + "\nSurname is: " + Surname + "\nAge: " + Age + "\nDate is: " + Date.ToString();
+        //}
         public void GetAllUserInfo()
         {
             Console.WriteLine($"Login is: {Login}\nName is: {Name}\nSurname is: {Surname}\nAge is: {Age}\nDate is: {Date.ToString()}");
         }
-
     }
 }

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EssentialLesson2Task4
 {
@@ -96,7 +92,7 @@ namespace EssentialLesson2Task4
                 return 30 * Quantity;
             }
         }
-
+        //или ToString();
         public void ShowInvoice()
         {
             Console.WriteLine($"Account is {Account}, customer is {Customer}, provider is {Provider}.");

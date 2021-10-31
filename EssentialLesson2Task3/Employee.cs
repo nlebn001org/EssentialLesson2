@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EssentialLesson2Task3
 {
@@ -76,11 +72,10 @@ namespace EssentialLesson2Task3
                 return (200 * 1) - ((100 * 1) * Tax);
             }
         }
-
+        //или ToString();
         public void EmpInfo()
         {
             Console.WriteLine($"Employee's name is: {Name}\nEmployee's surnname is: {Surname}\nEmployee's experience is: {ExpYears} years\nEmployee's post is: {Post}\nEmployee's salary is: {Salary}");
         }
-
     }
 }

@@ -11,6 +11,9 @@ namespace EssentialLesson2
 
             user.Login = "New login";
             user.GetAllUserInfo();
+            //Console.WriteLine(user.ToString());
+
+            Console.ReadKey();
         }
     }
 }
